@@ -17,7 +17,8 @@ release\_planning
 -----------------
 
 Show modules that should receive a release "soon". Use the `--help` flag to see
-all parameters.
+all parameters. An example run would be something like so:
+bundle exec ./release_planning.rb -c 20 -g '^\d.*' -m 14 -r '^puppetlabs-.*' -n puppetlabs -t <OATH TOKEN>
 
 stats
 -----------------
